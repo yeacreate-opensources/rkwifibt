@@ -1,0 +1,20 @@
+#Broadcom wifi configuration file(RK)
+
+#ccode ==> country code setting
+#ccode parameter define
+#ALL ===> 1 ~ 14
+#EU ===> 1 ~ 13
+#US ===> 1 ~ 11
+ccode=ALL
+regrev=0
+kso_enable=0
+PM=0
+#dhd_doflow=1
+#srl=15
+#lrl=15
+nv_by_chip=5 \
+43430 0 nvram_ap6212.txt \
+43430 1 nvram_ap6212a.txt \
+17221 6 nvram_ap6255.txt  \
+17236 2 nvram_ap6356.txt \
+17241 9 nvram_ap6359sa.txt
